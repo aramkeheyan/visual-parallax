@@ -1,0 +1,62 @@
+html{
+    height: 2000px;
+}
+.P-top-bar-container {
+    padding: 15px 0;
+}
+
+.P-top-bar-icons {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.P-header-top {
+    padding: 15px 0;
+    color: #474747;
+    background-color: #F4F4F4;
+}
+
+.P-header-bottom {
+    color: #FFFFFF;
+    background-color: #53D3DE;
+    border-color: #1D8B94;
+    border-bottom: 2px solid;
+    padding: 15px 0;
+}
+
+.P-contact-header {
+    justify-content: space-between;
+}
+
+.P-contact-header ul li {
+    text-transform: uppercase;
+}
+
+.P-contact-header ul li + li{
+    margin-left: 15px;
+}
+
+.P-links-header ul li:not(:last-child){
+    margin: 0 10px;
+    cursor: pointer;
+    color: unset;
+}
+.P-links-header ul li a{
+    color: unset;
+}
+.P-links-header ul li + li{
+    margin-left: 10px;
+}
+.P-logo {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.P-header-bottom-menu ul li{
+    /*align-items: center;*/
+    margin-left: 10px;
+    vertical-align: center;
+}
+
