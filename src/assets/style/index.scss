@@ -1,6 +1,10 @@
-@import "flex.css";
-@import "normalize.css";
-@import "global.css";
-@import "style.css";
-@import "media.css";
+@import "flex";
+@import "normalize";
+@import "global";
+@import "style";
+@import "media";
 
+.G-nav-container{
+  width: 100%;
+  position: fixed;
+}

@@ -1,0 +1,32 @@
+.header{
+  padding-top: 48px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  z-index: 1;
+}
+
+.header.active{
+  display: block;
+  padding-top: 0;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+  margin: 28px;
+  li {
+    margin-left: 15px;
+
+  }
+  li:nth-child(odd){
+    background-color: forestgreen;
+    border-radius: 10%;
+  }
+}
