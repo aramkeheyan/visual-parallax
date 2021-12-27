@@ -1,0 +1,41 @@
+.container {
+  width: 1200px;
+
+}
+
+.text-box {
+  margin-bottom: 32px;
+
+  h1 {
+    color: #1c1c1c;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+
+  width: 33%;
+  padding: 10px;
+
+  @media (max-width: 991px) {
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.icon {
+  margin-right: 2em;
+}
+
+.about-us-header {
+  margin: 50px auto;
+}
+
+.P-about-list {
+  margin: 0 -10px;
+}
+
+.about-list-container {
+  margin-bottom: 50px;
+}

@@ -32,7 +32,7 @@ export default function CustomSlider() {
 	]
 
 	const [settings, setSettings] = useState({
-		className: 'center',
+		// className: 'center',
 		infinite: true,
 		centerPadding: '60px',
 		slidesToShow: 1,
@@ -40,6 +40,7 @@ export default function CustomSlider() {
 		arrows: true,
 		autoplay: true,
 		autoplaySpeed: 4000,
+		fade: true,
 
 
 		afterChange: index => {

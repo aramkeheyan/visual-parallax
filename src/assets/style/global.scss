@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('../font/OpenSans-Regular.ttf')
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url('../font/Exo-Regular.ttf')
+}
+
 
 .G-image-cover {
     background-position: center;
@@ -16,4 +26,36 @@
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.G-text-menu {
+    font-family: exo, sans-serif;
+}
+
+.G-text {
+
+    h1 {
+        font-family: "Exo", sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 30px;
+        color: #1c1c1c;
+        line-height: 1;
+    }
+
+    h2 {
+        font-family: "Exo";
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: #1c1c1c;
+    }
+
+    p {
+        font-family: "Open Sans";
+        line-height: 23px;
+        color: #7a7a7a;
+        font-size: 14px;
+    }
+
 }
