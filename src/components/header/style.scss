@@ -21,12 +21,9 @@
 
 .menu {
   margin: 28px;
+
   li {
     margin-left: 15px;
 
-  }
-  li:nth-child(odd){
-    background-color: forestgreen;
-    border-radius: 10%;
   }
 }

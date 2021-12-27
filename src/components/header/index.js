@@ -5,7 +5,7 @@ import {v4 as uuidv4} from 'uuid';
 export default function Header() {
 	const [headerList, setHeaderList] = useState(["Home", "About Us", "Team", "Portfolio", "Contact"])
 	const [navBackground, setNavBackground] = useState("header")
-	const navRef = useRef()
+	const navRef = useRef("")
 	navRef.current = navBackground
 
 	useEffect(() => {
@@ -22,9 +22,10 @@ export default function Header() {
 		}
 	}
 
+
 	return (
 		<header className={`${navRef.current} `}>
-			<div className="G-flex G-container G-justify-between G-align-center">
+			<div className="G-flex G-container G-justify-between G-align-center text">
 				<div className="">VISUAL</div>
 				<div className="">
 					<ul className="G-flex menu">
